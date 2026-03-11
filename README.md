@@ -28,21 +28,4 @@ median_log10ppod
 
 This endpoint represents the median potency estimate derived from transcriptomic response data.
 
-## Repository Structure
 
-R/
-  00_setup.R
-  01_load_clean.R
-  02_model_classification.R
-  03_model_regression.R
-  04_tier_simulation.R
-  05_make_tables_figures.R
-
-data/
-  raw/
-
-results/
-  models/
-  metrics/
-  figures/
-  tables/
