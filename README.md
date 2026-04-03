@@ -1,6 +1,6 @@
 # Bayesian–Hybrid Inference Simulation
 
-This repository provides code to implement and evaluate a hybrid Bayesian–frequentist regression framework, with a focus on estimating \(\beta_1\) under varying data and prior conditions.
+This repository provides code to implement and evaluate a hybrid Bayesian–frequentist regression framework, with a focus on estimating **β₁** (bayesian parameter) under varying data and prior conditions.
 
 ---
 
@@ -71,7 +71,7 @@ Final_Simulation_Results5.docx
 ```
 
 This file contains:
-- Mean (SD) of \(\beta_1\) estimates  
+- Mean (SD) of **β₁** estimates  
 - Median [Q1, Q3] of standard errors  
 
 ---
