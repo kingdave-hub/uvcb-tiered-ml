@@ -76,6 +76,22 @@ This file contains:
 
 ---
 
+---
+
+## Computational Considerations
+
+The simulation is computationally intensive.
+
+- Each scenario involves 10,000 Monte Carlo replications  
+- A total of 36 scenarios are evaluated across combinations of sample size, outcome variance, prior variance, and true effect size  
+- The hybrid estimation procedure includes iterative updates (100 iterations per replication)
+
+As a result, the full simulation may take several hours to complete depending on system specifications.
+
+For exploratory runs, users may reduce the number of simulations (`n_sim`) in `Beta1Simulation_3.R`; final results should be generated using the full simulation size.  
+
+---
+
 ## Reproducibility
 
 A fixed randomization seed is used:
