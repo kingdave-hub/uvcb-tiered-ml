@@ -76,8 +76,6 @@ This file contains:
 
 ---
 
----
-
 ## Computational Considerations
 
 The simulation is computationally intensive.
